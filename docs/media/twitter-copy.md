@@ -72,3 +72,41 @@ Short alt text (if the field is tight):
 - If you add a caption overlay in the X composer, keep it clear of the bottom-left chip
   (“Mesh gradients, perfected.”) and the end-card CTA (centre, 10.3–12 s).
 - Tag the repository exactly as shown on the end card: `github.com/hemanth090/meshflow-studio`.
+
+---
+
+## Paste-ready hooks (verified character counts)
+
+All of these are em-dash-free and fit X's 280-character limit with room for a link in the reply.
+
+### Recommended hook (attach `intro.mp4`, link goes in the first reply)
+
+> Every beautiful background I've ever needed took 40 browser tabs and a blur filter. So I built
+> the studio instead: mesh gradients, film grain, frosted glass. Copy the CSS, export the PNG.
+
+187 characters. Specific pain, then the payoff; the 12 s video is the proof.
+
+### Alternative angles
+
+| Angle | Hook | Chars |
+|---|---|---|
+| Curiosity / technical | Mesh gradients look like magic. They're 2 to 12 radial blobs and one blur pass. Here's the studio that lets you sculpt them, then copy the CSS. | 143 |
+| Builder / credibility | I shipped a design studio as a plugin: draggable mesh nodes, soft blur, seeded grain, glassmorphism. PNG export, copy CSS, 69 tests, zero dependencies, MIT. | 156 |
+| Blunt command | Stop screenshotting gradients. Sculpt them, then ship the CSS. MeshFlow Studio is open source. | 94 |
+| Visual, no claims | 12 seconds of mesh gradients blooming, glass rising, and grain settling. Every frame is a composition you can copy as CSS. | 122 |
+| Question | What if a good background took two minutes instead of an afternoon? Mesh gradients, glass and grain, with a CSS copy button. Open source. | 137 |
+| Hashtags | Mesh gradients, film grain, frosted glass. Design it, export the PNG, copy the CSS. Open source. #meshgradient #css #opensource | 127 |
+
+### First reply (put the link here for reach)
+
+> Repo, docs and the 12 second teaser: github.com/hemanth090/meshflow-studio (MIT, local-first, no network calls)
+
+111 characters. A link in a reply costs no main-post reach.
+
+### Posting mechanics
+
+1. Upload `docs/media/intro.mp4` natively (16:9, 6.29 MB, silent, 30 fps). Do not convert it to GIF:
+   GIF would band the darks and balloon the file size.
+2. Keep the main post link-free, then reply with the repo line immediately.
+3. If the main post uses `poster.png` instead of the video, use the alt text in the section above.
+4. The video lands the wordmark in its first 2.3 s, so the hook line carries the message while it plays.
