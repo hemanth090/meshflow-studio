@@ -1,0 +1,67 @@
+name: Feature request
+description: Suggest an improvement or a new capability for MeshFlow Studio.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please describe the problem first, then the solution you have in mind.
+        Small, focused proposals that fit the plugin's scope (client-side mesh-gradient studio)
+        are the easiest to land.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the workflow that is awkward or impossible today.
+      placeholder: I want to ... but currently I have to ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should the plugin do? Sketches or mockups are welcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches, workarounds, or existing tools that solve this.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Mesh node editing
+        - Presets and palettes
+        - Blur / grain / vignette
+        - Glassmorphism
+        - Export and clipboard
+        - Accessibility
+        - Internationalization
+        - Performance
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, links, or anything else that helps explain the request.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this has not been requested yet.
+          required: true
+        - label: I am willing to open a pull request for this.
+          required: false

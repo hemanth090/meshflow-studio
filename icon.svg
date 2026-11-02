@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="MeshFlow Studio">
+  <defs>
+    <linearGradient id="mf-icon-base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#05060c"/>
+    </linearGradient>
+    <filter id="mf-icon-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <clipPath id="mf-icon-clip">
+      <rect width="128" height="128" rx="30"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mf-icon-clip)">
+    <rect width="128" height="128" fill="url(#mf-icon-base)"/>
+    <g filter="url(#mf-icon-blur)">
+      <circle cx="34" cy="38" r="38" fill="#5eead4" opacity="0.92"/>
+      <circle cx="88" cy="30" r="34" fill="#a78bfa" opacity="0.92"/>
+      <circle cx="74" cy="92" r="42" fill="#fb7185" opacity="0.82"/>
+      <circle cx="26" cy="98" r="28" fill="#38bdf8" opacity="0.72"/>
+    </g>
+    <path d="M93 38l2.6 7.4L103 48l-7.4 2.6L93 58l-2.6-7.4L83 48l7.4-2.6z" fill="#ffffff" opacity="0.9"/>
+    <path d="M41 30l1.7 4.8 4.8 1.7-4.8 1.7L41 43l-1.7-4.8-4.8-1.7 4.8-1.7z" fill="#ffffff" opacity="0.72"/>
+  </g>
+  <rect x="1" y="1" width="126" height="126" rx="29" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2"/>
+</svg>

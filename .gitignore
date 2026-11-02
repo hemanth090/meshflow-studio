@@ -1,0 +1,46 @@
+# Dependencies (the plugin has none at runtime; this is only for local tooling)
+node_modules/
+.pnpm-store/
+
+# Local verification scratch space (QA reports, audit scripts, captured logs)
+verify/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.parcel-cache/
+
+# Build output and generated reports
+dist/
+coverage/
+
+# Python tooling caches (docs/media and docs/showcase carry generator scripts)
+__pycache__/
+*.py[cod]
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Temporary media frames: raw frames and scratch renders stay local; only the
+# final delivered files under docs/media/ are tracked.
+docs/media/frames/
+docs/media/tmp/
+docs/media/raw/
+docs/media/_preview*/
+docs/media/_scratch*/
+docs/media/**/*.tmp
+docs/showcase/_*/
+*.tmp

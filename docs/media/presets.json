@@ -1,0 +1,1478 @@
+{
+  "format": "meshflow-studio-presets-dump",
+  "version": 1,
+  "source": "src/00-prelude.js + src/10-model.js (MF.model.PRESETS via node:vm)",
+  "plugin": {
+    "id": "meshflow-studio",
+    "version": 1,
+    "modelVersion": 1
+  },
+  "palette": [
+    {
+      "id": "aurora",
+      "nameKey": "palette.aurora",
+      "colors": [
+        "#6ee7ff",
+        "#a78bfa",
+        "#34d399",
+        "#38bdf8",
+        "#7cf29a"
+      ]
+    },
+    {
+      "id": "sunset",
+      "nameKey": "palette.sunset",
+      "colors": [
+        "#ff9a6c",
+        "#ff5e7e",
+        "#ffc46b",
+        "#c86dd7",
+        "#ffb3c7"
+      ]
+    },
+    {
+      "id": "ocean",
+      "nameKey": "palette.ocean",
+      "colors": [
+        "#0ea5e9",
+        "#22d3ee",
+        "#2563eb",
+        "#0f766e",
+        "#67e8f9"
+      ]
+    },
+    {
+      "id": "neon",
+      "nameKey": "palette.neon",
+      "colors": [
+        "#ff2d95",
+        "#00f0ff",
+        "#a855f7",
+        "#f9f871",
+        "#39ff14"
+      ]
+    },
+    {
+      "id": "pastel",
+      "nameKey": "palette.pastel",
+      "colors": [
+        "#ffd6e0",
+        "#c7f0ff",
+        "#d9c9ff",
+        "#ffe8c2",
+        "#b8f2d8"
+      ]
+    },
+    {
+      "id": "forest",
+      "nameKey": "palette.forest",
+      "colors": [
+        "#2f6f4e",
+        "#57a773",
+        "#9bd18c",
+        "#1f4d3a",
+        "#cfe8a9"
+      ]
+    },
+    {
+      "id": "ember",
+      "nameKey": "palette.ember",
+      "colors": [
+        "#ff4d00",
+        "#ff8a3d",
+        "#ffb703",
+        "#c1121f",
+        "#6a040f"
+      ]
+    },
+    {
+      "id": "mono",
+      "nameKey": "palette.mono",
+      "colors": [
+        "#f5f5f7",
+        "#c7c7d1",
+        "#8b8b99",
+        "#4a4a57",
+        "#1c1c24"
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "id": "aurora-veil",
+      "nameKey": "presets.aurora-veil",
+      "tagKey": "tags.soft",
+      "name": "Aurora Veil",
+      "state": {
+        "version": 1,
+        "name": "Aurora Veil",
+        "aspect": "16:9",
+        "base": "#050510",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.24,
+            "y": 0.28,
+            "color": "#6ee7ff",
+            "size": 0.86,
+            "opacity": 0.95
+          },
+          {
+            "id": "p2",
+            "x": 0.68,
+            "y": 0.2,
+            "color": "#a78bfa",
+            "size": 0.72,
+            "opacity": 0.85
+          },
+          {
+            "id": "p3",
+            "x": 0.82,
+            "y": 0.62,
+            "color": "#34d399",
+            "size": 0.78,
+            "opacity": 0.8
+          },
+          {
+            "id": "p4",
+            "x": 0.42,
+            "y": 0.56,
+            "color": "#38bdf8",
+            "size": 0.62,
+            "opacity": 0.7
+          },
+          {
+            "id": "p5",
+            "x": 0.16,
+            "y": 0.78,
+            "color": "#7cf29a",
+            "size": 0.66,
+            "opacity": 0.6
+          },
+          {
+            "id": "p6",
+            "x": 0.58,
+            "y": 0.88,
+            "color": "#a78bfa",
+            "size": 0.58,
+            "opacity": 0.55
+          }
+        ],
+        "blur": 26,
+        "grain": {
+          "enabled": false,
+          "amount": 0,
+          "scale": 34,
+          "seed": 7,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": false,
+          "amount": 24,
+          "size": 60
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "aurora"
+      }
+    },
+    {
+      "id": "peach-haze",
+      "nameKey": "presets.peach-haze",
+      "tagKey": "tags.warm",
+      "name": "Peach Haze",
+      "state": {
+        "version": 1,
+        "name": "Peach Haze",
+        "aspect": "4:3",
+        "base": "#1b0f14",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.22,
+            "y": 0.24,
+            "color": "#ffc46b",
+            "size": 0.9,
+            "opacity": 0.9
+          },
+          {
+            "id": "p2",
+            "x": 0.62,
+            "y": 0.18,
+            "color": "#ff9a6c",
+            "size": 0.8,
+            "opacity": 0.85
+          },
+          {
+            "id": "p3",
+            "x": 0.78,
+            "y": 0.52,
+            "color": "#ff5e7e",
+            "size": 0.7,
+            "opacity": 0.75
+          },
+          {
+            "id": "p4",
+            "x": 0.4,
+            "y": 0.62,
+            "color": "#ffb3c7",
+            "size": 0.66,
+            "opacity": 0.65
+          },
+          {
+            "id": "p5",
+            "x": 0.16,
+            "y": 0.8,
+            "color": "#c86dd7",
+            "size": 0.62,
+            "opacity": 0.5
+          }
+        ],
+        "blur": 44,
+        "grain": {
+          "enabled": true,
+          "amount": 18,
+          "scale": 42,
+          "seed": 11,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": true,
+          "amount": 30,
+          "size": 68
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "sunset"
+      }
+    },
+    {
+      "id": "deep-orbit",
+      "nameKey": "presets.deep-orbit",
+      "tagKey": "tags.dark",
+      "name": "Deep Orbit",
+      "state": {
+        "version": 1,
+        "name": "Deep Orbit",
+        "aspect": "21:9",
+        "base": "#03040a",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.1,
+            "y": 0.3,
+            "color": "#0ea5e9",
+            "size": 0.5,
+            "opacity": 0.7
+          },
+          {
+            "id": "p2",
+            "x": 0.3,
+            "y": 0.72,
+            "color": "#22d3ee",
+            "size": 0.62,
+            "opacity": 0.6
+          },
+          {
+            "id": "p3",
+            "x": 0.5,
+            "y": 0.3,
+            "color": "#2563eb",
+            "size": 0.7,
+            "opacity": 0.8
+          },
+          {
+            "id": "p4",
+            "x": 0.7,
+            "y": 0.68,
+            "color": "#67e8f9",
+            "size": 0.55,
+            "opacity": 0.6
+          },
+          {
+            "id": "p5",
+            "x": 0.86,
+            "y": 0.32,
+            "color": "#0f766e",
+            "size": 0.5,
+            "opacity": 0.65
+          },
+          {
+            "id": "p6",
+            "x": 0.42,
+            "y": 0.86,
+            "color": "#38bdf8",
+            "size": 0.4,
+            "opacity": 0.5
+          },
+          {
+            "id": "p7",
+            "x": 0.63,
+            "y": 0.46,
+            "color": "#e0f7ff",
+            "size": 0.1,
+            "opacity": 0.85
+          }
+        ],
+        "blur": 10,
+        "grain": {
+          "enabled": true,
+          "amount": 10,
+          "scale": 88,
+          "seed": 33,
+          "blend": "soft-light"
+        },
+        "vignette": {
+          "enabled": true,
+          "amount": 48,
+          "size": 70
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "ocean"
+      }
+    },
+    {
+      "id": "neon-tokyo",
+      "nameKey": "presets.neon-tokyo",
+      "tagKey": "tags.bold",
+      "name": "Neon Tokyo",
+      "state": {
+        "version": 1,
+        "name": "Neon Tokyo",
+        "aspect": "16:9",
+        "base": "#08030f",
+        "mix": "lighter",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.18,
+            "y": 0.28,
+            "color": "#ff2d95",
+            "size": 0.62,
+            "opacity": 0.9
+          },
+          {
+            "id": "p2",
+            "x": 0.4,
+            "y": 0.16,
+            "color": "#00f0ff",
+            "size": 0.55,
+            "opacity": 0.85
+          },
+          {
+            "id": "p3",
+            "x": 0.72,
+            "y": 0.26,
+            "color": "#a855f7",
+            "size": 0.6,
+            "opacity": 0.8
+          },
+          {
+            "id": "p4",
+            "x": 0.86,
+            "y": 0.62,
+            "color": "#f9f871",
+            "size": 0.42,
+            "opacity": 0.6
+          },
+          {
+            "id": "p5",
+            "x": 0.52,
+            "y": 0.7,
+            "color": "#39ff14",
+            "size": 0.5,
+            "opacity": 0.55
+          },
+          {
+            "id": "p6",
+            "x": 0.24,
+            "y": 0.76,
+            "color": "#00f0ff",
+            "size": 0.44,
+            "opacity": 0.5
+          }
+        ],
+        "blur": 8,
+        "grain": {
+          "enabled": true,
+          "amount": 22,
+          "scale": 26,
+          "seed": 23,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": true,
+          "amount": 36,
+          "size": 54
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "neon"
+      }
+    },
+    {
+      "id": "cotton-cloud",
+      "nameKey": "presets.cotton-cloud",
+      "tagKey": "tags.soft",
+      "name": "Cotton Cloud",
+      "state": {
+        "version": 1,
+        "name": "Cotton Cloud",
+        "aspect": "4:3",
+        "base": "#f7f2fb",
+        "mix": "normal",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.22,
+            "y": 0.26,
+            "color": "#ffb3c7",
+            "size": 0.9,
+            "opacity": 0.92
+          },
+          {
+            "id": "p2",
+            "x": 0.6,
+            "y": 0.2,
+            "color": "#9edbff",
+            "size": 0.8,
+            "opacity": 0.82
+          },
+          {
+            "id": "p3",
+            "x": 0.8,
+            "y": 0.6,
+            "color": "#c4b5fd",
+            "size": 0.76,
+            "opacity": 0.78
+          },
+          {
+            "id": "p4",
+            "x": 0.36,
+            "y": 0.62,
+            "color": "#ffd98a",
+            "size": 0.7,
+            "opacity": 0.7
+          },
+          {
+            "id": "p5",
+            "x": 0.14,
+            "y": 0.78,
+            "color": "#9ff0c8",
+            "size": 0.6,
+            "opacity": 0.65
+          },
+          {
+            "id": "p6",
+            "x": 0.62,
+            "y": 0.86,
+            "color": "#a5c8ff",
+            "size": 0.54,
+            "opacity": 0.55
+          }
+        ],
+        "blur": 56,
+        "grain": {
+          "enabled": false,
+          "amount": 0,
+          "scale": 34,
+          "seed": 7,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": false,
+          "amount": 24,
+          "size": 60
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "pastel"
+      }
+    },
+    {
+      "id": "mint-glacier",
+      "nameKey": "presets.mint-glacier",
+      "tagKey": "tags.cool",
+      "name": "Mint Glacier",
+      "state": {
+        "version": 1,
+        "name": "Mint Glacier",
+        "aspect": "3:2",
+        "base": "#04121a",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.2,
+            "y": 0.3,
+            "color": "#9bd18c",
+            "size": 0.8,
+            "opacity": 0.85
+          },
+          {
+            "id": "p2",
+            "x": 0.56,
+            "y": 0.2,
+            "color": "#57a773",
+            "size": 0.72,
+            "opacity": 0.8
+          },
+          {
+            "id": "p3",
+            "x": 0.82,
+            "y": 0.46,
+            "color": "#cfe8a9",
+            "size": 0.66,
+            "opacity": 0.7
+          },
+          {
+            "id": "p4",
+            "x": 0.34,
+            "y": 0.7,
+            "color": "#2f6f4e",
+            "size": 0.78,
+            "opacity": 0.6
+          },
+          {
+            "id": "p5",
+            "x": 0.7,
+            "y": 0.78,
+            "color": "#67e8f9",
+            "size": 0.6,
+            "opacity": 0.55
+          }
+        ],
+        "blur": 30,
+        "grain": {
+          "enabled": false,
+          "amount": 0,
+          "scale": 34,
+          "seed": 7,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": false,
+          "amount": 24,
+          "size": 60
+        },
+        "glass": {
+          "enabled": true,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.56,
+          "h": 0.44,
+          "radius": 30,
+          "blur": 22,
+          "opacity": 13,
+          "tint": "#eafff6",
+          "border": 46,
+          "sheen": 34
+        },
+        "palette": "forest"
+      }
+    },
+    {
+      "id": "ember-dusk",
+      "nameKey": "presets.ember-dusk",
+      "tagKey": "tags.warm",
+      "name": "Ember Dusk",
+      "state": {
+        "version": 1,
+        "name": "Ember Dusk",
+        "aspect": "16:9",
+        "base": "#120604",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.18,
+            "y": 0.7,
+            "color": "#ff4d00",
+            "size": 0.8,
+            "opacity": 0.85
+          },
+          {
+            "id": "p2",
+            "x": 0.44,
+            "y": 0.3,
+            "color": "#ffb703",
+            "size": 0.7,
+            "opacity": 0.8
+          },
+          {
+            "id": "p3",
+            "x": 0.7,
+            "y": 0.66,
+            "color": "#ff8a3d",
+            "size": 0.76,
+            "opacity": 0.75
+          },
+          {
+            "id": "p4",
+            "x": 0.86,
+            "y": 0.26,
+            "color": "#c1121f",
+            "size": 0.6,
+            "opacity": 0.6
+          },
+          {
+            "id": "p5",
+            "x": 0.5,
+            "y": 0.86,
+            "color": "#6a040f",
+            "size": 0.66,
+            "opacity": 0.5
+          }
+        ],
+        "blur": 22,
+        "grain": {
+          "enabled": true,
+          "amount": 34,
+          "scale": 36,
+          "seed": 41,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": true,
+          "amount": 44,
+          "size": 60
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "ember"
+      }
+    },
+    {
+      "id": "violet-drift",
+      "nameKey": "presets.violet-drift",
+      "tagKey": "tags.cool",
+      "name": "Violet Drift",
+      "state": {
+        "version": 1,
+        "name": "Violet Drift",
+        "aspect": "4:3",
+        "base": "#0a0616",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.2,
+            "y": 0.24,
+            "color": "#a78bfa",
+            "size": 0.85,
+            "opacity": 0.9
+          },
+          {
+            "id": "p2",
+            "x": 0.6,
+            "y": 0.18,
+            "color": "#c4b5fd",
+            "size": 0.72,
+            "opacity": 0.8
+          },
+          {
+            "id": "p3",
+            "x": 0.82,
+            "y": 0.5,
+            "color": "#818cf8",
+            "size": 0.74,
+            "opacity": 0.72
+          },
+          {
+            "id": "p4",
+            "x": 0.4,
+            "y": 0.48,
+            "color": "#6ee7ff",
+            "size": 0.6,
+            "opacity": 0.6
+          },
+          {
+            "id": "p5",
+            "x": 0.18,
+            "y": 0.76,
+            "color": "#38bdf8",
+            "size": 0.62,
+            "opacity": 0.5
+          },
+          {
+            "id": "p6",
+            "x": 0.68,
+            "y": 0.82,
+            "color": "#a78bfa",
+            "size": 0.66,
+            "opacity": 0.5
+          },
+          {
+            "id": "p7",
+            "x": 0.5,
+            "y": 0.94,
+            "color": "#c4b5fd",
+            "size": 0.44,
+            "opacity": 0.4
+          }
+        ],
+        "blur": 38,
+        "grain": {
+          "enabled": true,
+          "amount": 12,
+          "scale": 52,
+          "seed": 17,
+          "blend": "soft-light"
+        },
+        "vignette": {
+          "enabled": false,
+          "amount": 24,
+          "size": 60
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "aurora"
+      }
+    },
+    {
+      "id": "midnight-mesh",
+      "nameKey": "presets.midnight-mesh",
+      "tagKey": "tags.dark",
+      "name": "Midnight Mesh",
+      "state": {
+        "version": 1,
+        "name": "Midnight Mesh",
+        "aspect": "16:9",
+        "base": "#07070c",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.26,
+            "y": 0.3,
+            "color": "#f4f4f8",
+            "size": 0.78,
+            "opacity": 0.62
+          },
+          {
+            "id": "p2",
+            "x": 0.66,
+            "y": 0.22,
+            "color": "#d2d2dd",
+            "size": 0.84,
+            "opacity": 0.5
+          },
+          {
+            "id": "p3",
+            "x": 0.84,
+            "y": 0.58,
+            "color": "#9c9cae",
+            "size": 0.68,
+            "opacity": 0.5
+          },
+          {
+            "id": "p4",
+            "x": 0.4,
+            "y": 0.68,
+            "color": "#585867",
+            "size": 0.92,
+            "opacity": 0.55
+          },
+          {
+            "id": "p5",
+            "x": 0.14,
+            "y": 0.84,
+            "color": "#d2d2dd",
+            "size": 0.52,
+            "opacity": 0.4
+          },
+          {
+            "id": "p6",
+            "x": 0.56,
+            "y": 0.9,
+            "color": "#26262f",
+            "size": 0.62,
+            "opacity": 0.45
+          }
+        ],
+        "blur": 22,
+        "grain": {
+          "enabled": true,
+          "amount": 26,
+          "scale": 64,
+          "seed": 5,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": true,
+          "amount": 52,
+          "size": 72
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "mono"
+      }
+    },
+    {
+      "id": "citrus-pop",
+      "nameKey": "presets.citrus-pop",
+      "tagKey": "tags.bold",
+      "name": "Citrus Pop",
+      "state": {
+        "version": 1,
+        "name": "Citrus Pop",
+        "aspect": "1:1",
+        "base": "#140a06",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.24,
+            "y": 0.26,
+            "color": "#ffc46b",
+            "size": 0.78,
+            "opacity": 0.9
+          },
+          {
+            "id": "p2",
+            "x": 0.7,
+            "y": 0.2,
+            "color": "#ff5e7e",
+            "size": 0.66,
+            "opacity": 0.8
+          },
+          {
+            "id": "p3",
+            "x": 0.82,
+            "y": 0.62,
+            "color": "#ff9a6c",
+            "size": 0.62,
+            "opacity": 0.7
+          },
+          {
+            "id": "p4",
+            "x": 0.3,
+            "y": 0.7,
+            "color": "#ffb3c7",
+            "size": 0.7,
+            "opacity": 0.72
+          },
+          {
+            "id": "p5",
+            "x": 0.56,
+            "y": 0.9,
+            "color": "#c86dd7",
+            "size": 0.5,
+            "opacity": 0.5
+          }
+        ],
+        "blur": 14,
+        "grain": {
+          "enabled": true,
+          "amount": 16,
+          "scale": 30,
+          "seed": 61,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": false,
+          "amount": 24,
+          "size": 60
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "sunset"
+      }
+    },
+    {
+      "id": "rose-quartz",
+      "nameKey": "presets.rose-quartz",
+      "tagKey": "tags.soft",
+      "name": "Rose Quartz",
+      "state": {
+        "version": 1,
+        "name": "Rose Quartz",
+        "aspect": "3:2",
+        "base": "#fbf1f4",
+        "mix": "normal",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.24,
+            "y": 0.3,
+            "color": "#ff9fc2",
+            "size": 0.9,
+            "opacity": 0.88
+          },
+          {
+            "id": "p2",
+            "x": 0.64,
+            "y": 0.22,
+            "color": "#c4b5fd",
+            "size": 0.76,
+            "opacity": 0.78
+          },
+          {
+            "id": "p3",
+            "x": 0.82,
+            "y": 0.66,
+            "color": "#ffb38f",
+            "size": 0.66,
+            "opacity": 0.68
+          },
+          {
+            "id": "p4",
+            "x": 0.36,
+            "y": 0.62,
+            "color": "#ffd9a3",
+            "size": 0.78,
+            "opacity": 0.7
+          },
+          {
+            "id": "p5",
+            "x": 0.14,
+            "y": 0.8,
+            "color": "#9fe8d5",
+            "size": 0.56,
+            "opacity": 0.6
+          },
+          {
+            "id": "p6",
+            "x": 0.58,
+            "y": 0.88,
+            "color": "#a8d8ff",
+            "size": 0.5,
+            "opacity": 0.5
+          }
+        ],
+        "blur": 48,
+        "grain": {
+          "enabled": false,
+          "amount": 0,
+          "scale": 34,
+          "seed": 7,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": false,
+          "amount": 24,
+          "size": 60
+        },
+        "glass": {
+          "enabled": true,
+          "x": 0.62,
+          "y": 0.44,
+          "w": 0.46,
+          "h": 0.4,
+          "radius": 24,
+          "blur": 16,
+          "opacity": 20,
+          "tint": "#ffffff",
+          "border": 52,
+          "sheen": 40
+        },
+        "palette": "pastel"
+      }
+    },
+    {
+      "id": "solar-flare",
+      "nameKey": "presets.solar-flare",
+      "tagKey": "tags.bold",
+      "name": "Solar Flare",
+      "state": {
+        "version": 1,
+        "name": "Solar Flare",
+        "aspect": "16:9",
+        "base": "#0d0400",
+        "mix": "lighter",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.5,
+            "y": 0.4,
+            "color": "#ffb703",
+            "size": 1.1,
+            "opacity": 0.9
+          },
+          {
+            "id": "p2",
+            "x": 0.3,
+            "y": 0.62,
+            "color": "#ff8a3d",
+            "size": 0.7,
+            "opacity": 0.7
+          },
+          {
+            "id": "p3",
+            "x": 0.74,
+            "y": 0.3,
+            "color": "#ff4d00",
+            "size": 0.66,
+            "opacity": 0.7
+          },
+          {
+            "id": "p4",
+            "x": 0.68,
+            "y": 0.76,
+            "color": "#c1121f",
+            "size": 0.6,
+            "opacity": 0.5
+          }
+        ],
+        "blur": 12,
+        "grain": {
+          "enabled": true,
+          "amount": 20,
+          "scale": 22,
+          "seed": 83,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": true,
+          "amount": 30,
+          "size": 58
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "ember"
+      }
+    },
+    {
+      "id": "arctic-frost",
+      "nameKey": "presets.arctic-frost",
+      "tagKey": "tags.cool",
+      "name": "Arctic Frost",
+      "state": {
+        "version": 1,
+        "name": "Arctic Frost",
+        "aspect": "21:9",
+        "base": "#04101a",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.18,
+            "y": 0.32,
+            "color": "#67e8f9",
+            "size": 0.8,
+            "opacity": 0.8
+          },
+          {
+            "id": "p2",
+            "x": 0.5,
+            "y": 0.2,
+            "color": "#22d3ee",
+            "size": 0.7,
+            "opacity": 0.75
+          },
+          {
+            "id": "p3",
+            "x": 0.82,
+            "y": 0.36,
+            "color": "#0ea5e9",
+            "size": 0.7,
+            "opacity": 0.7
+          },
+          {
+            "id": "p4",
+            "x": 0.36,
+            "y": 0.7,
+            "color": "#2563eb",
+            "size": 0.72,
+            "opacity": 0.6
+          },
+          {
+            "id": "p5",
+            "x": 0.7,
+            "y": 0.78,
+            "color": "#0f766e",
+            "size": 0.64,
+            "opacity": 0.5
+          },
+          {
+            "id": "p6",
+            "x": 0.92,
+            "y": 0.7,
+            "color": "#22d3ee",
+            "size": 0.42,
+            "opacity": 0.4
+          }
+        ],
+        "blur": 34,
+        "grain": {
+          "enabled": true,
+          "amount": 10,
+          "scale": 70,
+          "seed": 29,
+          "blend": "soft-light"
+        },
+        "vignette": {
+          "enabled": false,
+          "amount": 24,
+          "size": 60
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "ocean"
+      }
+    },
+    {
+      "id": "plum-noir",
+      "nameKey": "presets.plum-noir",
+      "tagKey": "tags.dark",
+      "name": "Plum Noir",
+      "state": {
+        "version": 1,
+        "name": "Plum Noir",
+        "aspect": "1:1",
+        "base": "#0b0410",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.24,
+            "y": 0.26,
+            "color": "#a855f7",
+            "size": 0.8,
+            "opacity": 0.85
+          },
+          {
+            "id": "p2",
+            "x": 0.7,
+            "y": 0.22,
+            "color": "#ff2d95",
+            "size": 0.66,
+            "opacity": 0.75
+          },
+          {
+            "id": "p3",
+            "x": 0.82,
+            "y": 0.62,
+            "color": "#00f0ff",
+            "size": 0.5,
+            "opacity": 0.4
+          },
+          {
+            "id": "p4",
+            "x": 0.3,
+            "y": 0.72,
+            "color": "#a855f7",
+            "size": 0.7,
+            "opacity": 0.6
+          },
+          {
+            "id": "p5",
+            "x": 0.56,
+            "y": 0.9,
+            "color": "#ff2d95",
+            "size": 0.5,
+            "opacity": 0.45
+          }
+        ],
+        "blur": 16,
+        "grain": {
+          "enabled": true,
+          "amount": 30,
+          "scale": 48,
+          "seed": 47,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": true,
+          "amount": 58,
+          "size": 76
+        },
+        "glass": {
+          "enabled": true,
+          "x": 0.5,
+          "y": 0.52,
+          "w": 0.6,
+          "h": 0.46,
+          "radius": 26,
+          "blur": 20,
+          "opacity": 12,
+          "tint": "#f4e8ff",
+          "border": 38,
+          "sheen": 28
+        },
+        "palette": "neon"
+      }
+    },
+    {
+      "id": "glass-panel",
+      "nameKey": "presets.glass-panel",
+      "tagKey": "tags.glass",
+      "name": "Glass Panel",
+      "state": {
+        "version": 1,
+        "name": "Glass Panel",
+        "aspect": "16:9",
+        "base": "#101018",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.22,
+            "y": 0.3,
+            "color": "#c7c7d1",
+            "size": 0.7,
+            "opacity": 0.5
+          },
+          {
+            "id": "p2",
+            "x": 0.64,
+            "y": 0.24,
+            "color": "#f5f5f7",
+            "size": 0.6,
+            "opacity": 0.4
+          },
+          {
+            "id": "p3",
+            "x": 0.82,
+            "y": 0.66,
+            "color": "#8b8b99",
+            "size": 0.6,
+            "opacity": 0.4
+          },
+          {
+            "id": "p4",
+            "x": 0.32,
+            "y": 0.74,
+            "color": "#4a4a57",
+            "size": 0.8,
+            "opacity": 0.5
+          }
+        ],
+        "blur": 20,
+        "grain": {
+          "enabled": true,
+          "amount": 12,
+          "scale": 40,
+          "seed": 71,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": false,
+          "amount": 24,
+          "size": 60
+        },
+        "glass": {
+          "enabled": true,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.58,
+          "h": 0.5,
+          "radius": 32,
+          "blur": 26,
+          "opacity": 16,
+          "tint": "#ffffff",
+          "border": 56,
+          "sheen": 46
+        },
+        "palette": "mono"
+      }
+    },
+    {
+      "id": "mono-grain",
+      "nameKey": "presets.mono-grain",
+      "tagKey": "tags.dark",
+      "name": "Mono Grain",
+      "state": {
+        "version": 1,
+        "name": "Mono Grain",
+        "aspect": "21:9",
+        "base": "#0b0b10",
+        "mix": "screen",
+        "points": [
+          {
+            "id": "p1",
+            "x": 0.16,
+            "y": 0.4,
+            "color": "#f5f5f7",
+            "size": 0.5,
+            "opacity": 0.35
+          },
+          {
+            "id": "p2",
+            "x": 0.42,
+            "y": 0.6,
+            "color": "#c7c7d1",
+            "size": 0.6,
+            "opacity": 0.4
+          },
+          {
+            "id": "p3",
+            "x": 0.66,
+            "y": 0.28,
+            "color": "#8b8b99",
+            "size": 0.7,
+            "opacity": 0.45
+          },
+          {
+            "id": "p4",
+            "x": 0.86,
+            "y": 0.62,
+            "color": "#4a4a57",
+            "size": 0.55,
+            "opacity": 0.4
+          },
+          {
+            "id": "p5",
+            "x": 0.56,
+            "y": 0.84,
+            "color": "#1c1c24",
+            "size": 0.6,
+            "opacity": 0.35
+          }
+        ],
+        "blur": 8,
+        "grain": {
+          "enabled": true,
+          "amount": 64,
+          "scale": 58,
+          "seed": 97,
+          "blend": "overlay"
+        },
+        "vignette": {
+          "enabled": true,
+          "amount": 60,
+          "size": 80
+        },
+        "glass": {
+          "enabled": false,
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.52,
+          "h": 0.42,
+          "radius": 28,
+          "blur": 18,
+          "opacity": 14,
+          "tint": "#ffffff",
+          "border": 40,
+          "sheen": 30
+        },
+        "palette": "mono"
+      }
+    }
+  ]
+}

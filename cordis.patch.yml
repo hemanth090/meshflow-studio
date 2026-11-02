@@ -1,0 +1,3 @@
+- insert:
+    - id: meshflow-studio
+      name: '@local/meshflow-studio'

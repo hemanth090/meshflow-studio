@@ -1,0 +1,104 @@
+name: Bug report
+description: Report a reproducible problem with MeshFlow Studio.
+title: "[Bug]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! A minimal, reproducible report gets fixed much faster.
+        Please do **not** report security vulnerabilities here - see
+        [SECURITY.md](https://github.com/hemanth090/meshflow-studio/blob/main/SECURITY.md).
+
+  - type: input
+    id: dsh-version
+    attributes:
+      label: Harness (DSH) version
+      description: The DeepSeek Harness version shown in Settings/About.
+      placeholder: e.g. 1.4.0
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. macOS 15.3 (Apple Silicon) / Windows 11 / Ubuntu 24.04
+    validations:
+      required: true
+
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options:
+        - Dark
+        - Light
+        - Both (the issue occurs in either theme)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: UI language
+      options:
+        - English
+        - 简体中文
+        - Both
+
+  - type: input
+    id: install
+    attributes:
+      label: How is the plugin installed?
+      placeholder: plugin_manager install_bundle / manual copy into the profile / built from source
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps starting from opening the MeshFlow Studio panel.
+      placeholder: |
+        1. Open MeshFlow Studio from the sidebar
+        2. Select the "Aurora veil" preset
+        3. Drag the second node to the top-left corner
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output and screenshots
+      description: Paste browser console errors (F12 → Console) and attach screenshots or a screen recording when useful.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: I reproduced this on the latest `main` (rebuilt with `node build.mjs`).
+          required: true
+        - label: This is not a security vulnerability (those go through SECURITY.md).
+          required: true

@@ -1,0 +1,50 @@
+{
+  "name": "@local/meshflow-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mesh gradient, blur, grain and glassmorphism design studio for the Harness Web UI",
+  "license": "MIT",
+  "author": "Naveen Hemanth",
+  "repository": "https://github.com/hemanth090/meshflow-studio",
+  "homepage": "https://github.com/hemanth090/meshflow-studio#readme",
+  "bugs": {
+    "url": "https://github.com/hemanth090/meshflow-studio/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "harness-ui",
+    "mesh-gradient",
+    "glassmorphism",
+    "design-tool",
+    "gradient-generator"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}
